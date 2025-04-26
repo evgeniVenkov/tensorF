@@ -1,5 +1,3 @@
-import numpy as np
-import tensorflow as tf
 
 import tensorflow as tf
 from tensorflow import keras
@@ -95,3 +93,4 @@ def three_simple_ii():
 
 gpus = tf.config.list_physical_devices('GPU')
 print("Доступные GPU:", gpus)
+
